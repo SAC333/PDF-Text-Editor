@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+.venv/
+
+# build output
+dist/
+*.tsbuildinfo
+
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# secrets (keep .env.example)
+.env
+
+# local document data
+backend/data/*
+!backend/data/.gitkeep
+
+# PDF documents and temp files
+*.pdf
+*.tmp
